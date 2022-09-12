@@ -1,0 +1,28 @@
+body {
+    font-family: 'Montserrat', sans-serif;}
+
+header {
+    background-image: url(/src/imgs/header-img.svg);
+}
+
+.bgstar1 {
+    background-image: url(/src/imgs/banner-bg.png) ;
+
+}
+
+.bgnavbar {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(123, 74, 131, 0.75);
+}
+
+.Vconectar {
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(123, 74, 131, 0.75);
+}
+
+footer {
+    background-image: url(/src/imgs/footer-bg.png) ;
+
+}
