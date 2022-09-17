@@ -17,15 +17,15 @@ header {
     /* position: fixed; */
 }
 
-.Vconectar {
-    backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(123, 74, 131, 0.75);
-}
+@media (max-width: 600px) {
+    .mobile-text {
+      text-align: center;
+    }
+  }
 
 footer {
     background-image: url(/src/imgs/footer-bg.png) ;
-
+    background-size: auto;
 }
 
   
