@@ -6,10 +6,11 @@
   <link href="/dist/output.css" rel="stylesheet">
   <link href="/src/extra.css" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300&display=swap" rel="stylesheet"> 
 </head>
 <body class="">
 
@@ -56,16 +57,22 @@
 
   <div class="sm:flex container pl-2 items-center mx-auto">
 
-  <div class="sm:mt-20 pt-28 sm:pt-20 text-white ">
-    <p class=""> <span class="text-white text-sm font-bold p-2 border">Bem vindo ao meu Portfólio</span> </p>
+    
+  <div class="sm:mt-20 pt-28 sm:pt-20  text-white  " data-aos="fade-up-right">
+    <p class=""> <span class="text-white typed text-sm font-bold p-2 border" data-aos="fade-up">Bem vindo ao meu Portfólio</span> </p>
+    
+  
     <h1 class="sm:mt-5 mt-7 sm:text-4xl font-bold sm:text-left">Olá, Meu nome é Lucas!
-      <p class="">Sou desenvolvedor FrontEnd</p></h1>
+
+      <h1> <span class="mov  font-bold truncate underline decoration-purple-700"> </span></h1>
+
+
       <p class="text-sm mt-2">Sou graduando em Análise e Desenvolvimento de Sistemas, atualmente estou procurando me especializar em desenvolvimento FrontEnd com Vue.js e Nuxt.js.<br><br> Inglês intermediário/ Técnico. </p>
 
         <a href="https://www.linkedin.com/in/lucasvicentedasilva/"
         class="inline-flex  mt-8 justify-center text-base font-medium sm:mb-12 text-center text-white focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
         Vamos nos conectar!?
-        <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <svg class="ml-2 -mr-1 w-5 h-5"  fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd"
             d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
             clip-rule="evenodd"></path>
@@ -74,31 +81,40 @@
   </div>
   <div class="mt-10 sm:mt-0 sm:pt-20 mx-12 sm:mx-0 sm:pl-96 ">
 
-    <img src="/src/imgs/animate.svg" class="w-screen sm:h-96">
+    <img src="/src/imgs/animate.svg" class="w-screen sm:h-96" data-aos="zoom-in-down">
   </div>
 
 </div>
 
-  
+
+
   <section class="" id="Skills">
-  <div class="rounded-lg text-white p-8 mb-8 text-center container sm:mx-auto bg-black "> <!--skills-->
+  <div class="rounded-lg text-white p-8 mb-8 text-center  container sm:mx-auto bg-black " > <!--skills-->
     
-    <p class="font-bold p-4  sm:text-5xl">Skills</p>
-    <p class="text-sm p-2">Skills que venho aperfeiçoando e estou em constante estudo.</p>
+    <p class="font-bold p-4  sm:text-5xl" data-aos="zoom-in">Skills</p>
+    <p class="text-sm p-2 " data-aos="fade-up"
+    data-aos-duration="3000">Skills que venho aperfeiçoando e estou em constante estudo.</p>
 
     <div class="grid md:grid-cols-3 justify-evenly my-8 ">
 
-      <div class="py-2 text-center">
+      <div class="py-2 text-center" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
         <img src="/src/imgs/meter1.svg" class="h-32 mx-auto">
         <p class="font-bold pt-1">HTML/CSS</p>
       </div>
 
-      <div class="py-2 text-center">
+      <div class="py-2 text-center"data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine" >
         <img src="/src/imgs/meter3.svg" class="h-32 mx-auto">
         <p class="font-bold pt-1">JAVASCRIPT</p>
       </div>
 
-      <div class="py-2 text-center">
+      <div class="py-2 text-center" data-aos="fade-left"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="500"
+      data-aos-duration="500">
         <img src="/src/imgs/meter2.svg" class="h-32 mx-auto">
         <p class="font-bold pt-1">VUE.JS/NUXT.JS</p>
       </div>
@@ -114,31 +130,42 @@
 <div class="bg-black sm:px-32 sm:py-20 ">
   <!--PROJETOS-->
   <div class="container mx-auto text-center pt-8 text-white">
-    <p class="sm:text-5xl font-bold ">
+    <p class="sm:text-5xl font-bold " data-aos="zoom-in">
       Projetos
     </p>
 
-    <p class="mt-4 text-sm pb-2 ">
+    <p class="mt-4 text-sm pb-2 " data-aos="fade-up">
       Alguns dos meus projetos FrontEnd que desenvolvi recentemente.
     </p>
   </div>
 
 
-  <div id="animation-carousel" class="relative" data-carousel="static">
+  <div id="animation-carousel" class="relative" data-carousel="slide" data-aos="flip-left"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="2000">
     <!-- Carousel wrapper -->
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
       <!-- Item 1 -->
-      <a href="https://projetoadv.vercel.app/"> 
+      <a href="https://projetoadv.vercel.app/" target="_blank"> 
       <div class="hidden duration-200 ease-linear absolute inset-0 transition-all transform" data-carousel-item="">
         <img src="/src/imgs/ProjetoAdvocacia.png"
           class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
     </a>
       <!-- Item 2 -->
-      <a href="https://website-banco.vercel.app/">
+      <a href="https://website-banco.vercel.app/" target="_blank">
       <div class="duration-200 ease-linear absolute inset-0 transition-all transform -translate-x-full z-10"
         data-carousel-item="">
         <img src="/src/imgs/ProjetoBanco.png"
+          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+    </a>
+
+    <!-- Item 3 -->
+    <a href="https://buscador-cep-pearl.vercel.app/" target="_blank">
+      <div class="duration-200 ease-linear absolute inset-0 transition-all transform -translate-x-full z-10"
+        data-carousel-item="">
+        <img src="/src/imgs/buscadorCEP.png"
           class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
     </a>
@@ -182,9 +209,24 @@
 </div>
 </footer>
 
-  <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js">
+<script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
-  </script>
+<script>
+  var typed = new Typed(".mov",{
+  strings: [,  "Sou desenvolvedor FrontEnd"] ,
+  typeSpeed: 100,
+  backSpeed: 100,
+  loop: true
+
+  })
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script> 
+
 </body>
 </html>
