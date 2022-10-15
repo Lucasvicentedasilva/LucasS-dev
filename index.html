@@ -146,68 +146,52 @@
       Alguns dos meus projetos FrontEnd que desenvolvi recentemente.
     </p>
   </div>
+    <div class="container px-6 py-10 mx-auto">
+        
+        <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
 
+             <div class="overflow-hidden bg-center bg-origin-padding  bg-cover rounded-lg cursor-pointer h-96 group data-carousel="slide" data-aos="flip-left"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="2000" 
+                style="background-image:url('/src/imgs/ProjetoAdvocacia.png')"> 
+                <a href="https://projetoadv.vercel.app/" target="_blank"> 
+                <div
+                    class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                    <h2 class="mt-4 text-2xl font-semibold text-white capitalize">Projeto Advocacia</h2>
+                    <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase ">Website | HTML, CSS(TailwindCSS) e JAVASCRIPT </p>
+                </div>
+              </a>
+            </div>
 
-  <div id="animation-carousel" class="relative" data-carousel="slide" data-aos="flip-left"
-  data-aos-easing="ease-out-cubic"
-  data-aos-duration="2000">
-    <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-      <!-- Item 1 -->
-      <a href="https://projetoadv.vercel.app/" target="_blank"> 
-      <div class="hidden duration-200 ease-linear absolute inset-0 transition-all transform" data-carousel-item="">
-        <img src="/src/imgs/ProjetoAdvocacia.png"
-          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-      </div>
-    </a>
-      <!-- Item 2 -->
-      <a href="https://website-banco.vercel.app/" target="_blank">
-      <div class="duration-200 ease-linear absolute inset-0 transition-all transform -translate-x-full z-10"
-        data-carousel-item="">
-        <img src="/src/imgs/ProjetoBanco.png"
-          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-      </div>
-    </a>
+            <div class="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer h-96 group data-carousel="slide" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+                style="background-image:url('/src/imgs/ProjetoBanco.png')">
+                <a href="https://website-banco.vercel.app/" target="_blank">
+                <div
+                    class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                    <h2 class="mt-4 text-2xl font-semibold text-white capitalize">Banco moderno</h2>
+                    <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase ">Website | HTML, CSS(TailwindCSS) e JAVASCRIPT</p>
+                </div>
+              </a>
+            </div>
 
-    <!-- Item 3 -->
-    <a href="https://buscador-cep-pearl.vercel.app/" target="_blank">
-      <div class="duration-200 ease-linear absolute inset-0 transition-all transform -translate-x-full z-10"
-        data-carousel-item="">
-        <img src="/src/imgs/buscadorCEP.png"
-          class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-      </div>
-    </a>
-
+            <div class="overflow-hidden bg-cover bg-center rounded-lg cursor-pointer h-96 group data-carousel="slide" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+                style="background-image:url('/src/imgs/buscadorCEP.png')">
+                <a href="https://buscador-cep-pearl.vercel.app/" target="_blank">
+                <div
+                    class="flex flex-col justify-center w-full h-full px-8 py-4 transition-opacity duration-700 opacity-0 backdrop-blur-sm bg-gray-800/60 group-hover:opacity-100">
+                    <h2 class="mt-4 text-2xl font-semibold text-white capitalize">Buscador de CEP</h2>
+                    <p class="mt-2 text-lg tracking-wider text-blue-400 uppercase ">Website| API, AXIOS</p>
+                </div>
+              </a>
+            </div>
+        </div>
     </div>
-    <!-- Slider controls -->
-    <button type="button"
-      class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-      data-carousel-prev="">
-      <span
-        class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-        <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
-          stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-        </svg>
-        <span class="sr-only">Previous</span>
-      </span>
-    </button>
-    <button type="button"
-      class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-      data-carousel-next="">
-      <span
-        class="inline-flex items-center justify-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-        <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none"
-          stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-        </svg>
-        <span class="sr-only">Next</span>
-      </span>
-    </button>
-  </div>
-
-</div>
 </section>
+
 <footer class="">
 
 <div class=" p-5 text-center ">
