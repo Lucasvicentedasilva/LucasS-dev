@@ -17,7 +17,7 @@ Portfólio que criei para praticar e aprimorar meus conhecimentos em desenvolvim
 <br>
 
 <p align="center">
-  </img alt="Portfólio" src="src/imgs/portfolio.png" width="25%">
+  <img alt="Portfolio" src="src/imgs/portfolio.png" width="75%">
 </p>
 
 ## 🚀 Tecnologias
