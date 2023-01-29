@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 
-Um Website moderno para praticar e aprimorar meus conhecimentos em html, css utilizando tailwind e JavaScript.
+Um Website moderno para praticar e aprimorar meus conhecimentos em HTML, CSS(tailwindcss) e JavaScript.
 
 
 ## :memo: Licença
