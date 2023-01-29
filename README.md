@@ -18,7 +18,7 @@ Portfólio que criei para praticar e aprimorar meus conhecimentos em desenvolvim
 
 <p align="center">
   <img alt="Portfolio" src="src/imgs/portfolio.png" width="75%">
-  <img alt="Portfolio Mobile" src="src/imgs/Mobile.png" width="75%">
+  <img alt="Portfolio Mobile" src="src/imgs/Mobile.png" width="15%">
 </p>
 
 ## 🚀 Tecnologias
@@ -30,6 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Hospedagem no vercel
 
 ## 💻 Projeto
+
 
 Um Website moderno para praticar e aprimorar meus conhecimentos em html, css utilizando tailwind e JavaScript.
 
