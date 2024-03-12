@@ -298,12 +298,12 @@
   <footer class="" >
 
     <div class=" p-5 text-center">
-      <span class="text-sm text-white">© 2022 <a href="" class="hover:underline">LucasSilva™</a>. All Rights Reserved.
-      </span>
+      <span id="anoAtual" class="text-sm text-white">© <span id="anoSpan" class="text-white"></span> <a href="" class="hover:underline">LucasSilva™</a>. Todos os direitos reservados.</span>
+
 
     </div>
   </footer>
-<!-- <script>
+<script>
 
   setTimeout(() => {
     Swal.fire({
@@ -316,7 +316,7 @@
 })
   }, 7000)
 
-  </script> -->
+  </script>
   <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
@@ -335,6 +335,18 @@
   <script>
     AOS.init();
   </script>
+
+<script>
+  // Obter o elemento <span> onde queremos mostrar o ano atual
+  const spanAnoAtual = document.getElementById('anoSpan');
+  
+  // Obter o ano atual
+  const anoAtual = new Date().getFullYear();
+  
+  // Definir o texto do elemento <span> para o ano atual
+  spanAnoAtual.textContent = anoAtual;
+  </script>
+  
   
   
 </body>
